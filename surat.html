@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Surat untuk Bastie</title>
+  <style>
+    body {
+      background: #fef6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Georgia', serif;
+    }
+
+    .letter {
+      background: #fff;
+      width: 90%;
+      max-width: 600px;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border: 1px solid #f3cce3;
+      position: relative;
+    }
+
+    .letter::before {
+      content: "💌";
+      font-size: 48px;
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .letter h1 {
+      text-align: center;
+      color: #d95f9f;
+      margin-bottom: 20px;
+    }
+
+    .letter p {
+      text-align: justify;
+      line-height: 1.8;
+      color: #444;
+      font-size: 17px;
+    }
+
+    .signature {
+      margin-top: 40px;
+      text-align: right;
+      font-style: italic;
+      color: #b374a3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="letter">
+  <h1>Ucapan Hangat di Hari Spesialmu ♡♡♡</h1>
+  <p>
+    Selamat ulang tahun! Semoga hari ini dipenuhi dengan hal-hal baik dan penuh kebahagiaan. Usia baru, semoga membawa banyak hal positif, rezeki lancar, dan kesehatan yang terus terjaga.
+  </p>
+  <p>
+    Terima kasih sudah jadi orang yang selalu berusaha memberikan yang terbaik. Tetap jadi diri sendiri dan terus berjalan sesuai yang diyakini.
+  </p>
+  <p>
+    Semoga langkah ke depan semakin terarah, dan semua doa baik segera sampai pada waktunya. Nikmati hari ini, karena ini hari spesial.
+  </p>
+  <p>
+    Sekali lagi, selamat ulang tahun. Semoga makin kuat, makin bijak, dan makin bahagia.
+  </p>
+  <div class="signature">
+    From,<br/>
+    MY FRIEND ♡ (D)
+  </div>
+</div>
+
+    <!-- Tombol ke halaman berikutnya -->
+    <button class="next-button" onclick="lanjut()">Klik ini ➤</button>
+  </div>
+
+  <script>
+    function lanjut() {
+      // Ganti ke halaman berikutnya sesuai kebutuhan
+      window.location.href = "kartu.html"; // atau bisa juga 'akhir.html' sesuai nama file kamu
+    }
+  </script>
+
+</body>
+</html>
